@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+h1 {text-transform: uppercase;
+letter-spacing: 2px;
+color:yellow;
+float: left;
+font-weight: bold;
+}
+
+h1, #navigation{
+    line-height: 75px;
+}
+
+#navigation{
+    list-style-type: none;
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+#navigation li{
+    float: right;
+    margin-right: 30px;
+}
+
+#navigation a{
+    text-decoration: none;
+}
+
+#navigation a:hover{
+    border-bottom: 1px solid yellow;
+}
+
+.active{
+    color: yellow;
+}
