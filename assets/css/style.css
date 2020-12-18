@@ -27,3 +27,6 @@
 .navbar-toggler-icon{
     color: yellow;
 }
+
+h2{text-transform: uppercase;
+}
