@@ -11,25 +11,32 @@
 <body>
     <header>
         <!--Logo and nav bar-->
-        <a href="index.html">
-            <h1>New Gym</h1>
-        </a>
-        <nav>
-            <ul id="navigation">
-                <li>
-                   <a href="#">Join Now</a> 
-                </li>
-                <li>
-                    <a href="#">Membership</a>
-                </li>
-                <li>
-                   <a href="#">About Us</a> 
-                </li>
-                <li>
-                    <a class="active" href="index.html">Home</a>
-                </li>
-            </ul>
-        </nav>
+       <nav class="navbar menu-bar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand logo-style" href="index.html">New Gym</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link menu-list active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu-list" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu-list" href="#">Membership</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link menu-list" href="#">Join Now</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+   
     </header>   
     <section>
         <!--hero image-->

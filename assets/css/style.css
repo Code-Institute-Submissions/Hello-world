@@ -1,35 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-h1 {text-transform: uppercase;
-letter-spacing: 2px;
-color:yellow;
-float: left;
-font-weight: bold;
+.menu-bar{
+    background-color: grey;
+    width: 100%;
 }
 
-h1, #navigation{
-    line-height: 75px;
+.menu-bar .logo-style{
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 2px;
 }
 
-#navigation{
-    list-style-type: none;
-    font-size: 110%;
+.menu-bar .menu-list{
+    color: white;
     letter-spacing: 1px;
+    font-size: 20px;
+    margin-right: 20px;
 }
 
-#navigation li{
-    float: right;
-    margin-right: 30px;
+.menu-bar .active{
+    color: yellow;
 }
 
-#navigation a{
-    text-decoration: none;
-}
-
-#navigation a:hover{
-    border-bottom: 1px solid yellow;
-}
-
-.active{
+.navbar-toggler-icon{
     color: yellow;
 }
