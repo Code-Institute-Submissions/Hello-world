@@ -30,3 +30,47 @@
 
 h2{text-transform: uppercase;
 }
+
+.callout-container{ 
+    height: 100vh;
+    background: url('../images/gym.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    background-attachment: scroll;
+    background-color: grey;
+    
+}
+
+.classes-container{ 
+    height: 100vh;
+    background: url('../images/class.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    background-attachment: scroll;    
+}
+
+.class-info{
+    margin-left: 35px;
+    margin-top: 80px;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.exercise-classes p{
+    color: white;
+}
+
+.exercise-classes h2{
+    color: white;
+}
+
+.timings{
+    font-size: 120%;
+}
