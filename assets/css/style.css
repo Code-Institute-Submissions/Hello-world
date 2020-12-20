@@ -37,7 +37,25 @@ h2{text-transform: uppercase;
     background-size: cover;
     position: relative;
     background-attachment: scroll;
-    
+}
+
+.call-to-join{
+    color: white;
+    padding-top: 250px;
+    padding-left: 10px;
+}
+
+.call-to-join-mobile{
+    color: white;
+    padding-top: 350px;
+}
+
+.btn-warning{
+    margin-left: 80px;
+}
+
+.button-mobile{
+    margin-left: 70px;
 }
 
 .classes-container{ 
