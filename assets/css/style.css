@@ -74,6 +74,17 @@ h2{text-transform: uppercase;
     font-size: 120%;
 }
 
+.social-media i{
+    margin-right:20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
 
-
+.copyright{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
 
