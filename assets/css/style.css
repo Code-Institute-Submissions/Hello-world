@@ -37,7 +37,6 @@ h2{text-transform: uppercase;
     background-size: cover;
     position: relative;
     background-attachment: scroll;
-    background-color: grey;
     
 }
 
@@ -74,3 +73,7 @@ h2{text-transform: uppercase;
 .timings{
     font-size: 120%;
 }
+
+
+
+
