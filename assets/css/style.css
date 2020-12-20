@@ -31,6 +31,10 @@
 h2{text-transform: uppercase;
 }
 
+h3{
+    text-decoration: underline;
+}
+
 .callout-container{ 
     height: 100vh;
     background: url('../images/gym.jpg') no-repeat center center fixed;
@@ -59,7 +63,7 @@ h2{text-transform: uppercase;
 }
 
 .classes-container{ 
-    height: 100vh;
+    height: 105vh;
     background: url('../images/class.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
@@ -105,4 +109,6 @@ h2{text-transform: uppercase;
     padding-bottom: 10px;
     padding-top: 0;
 }
+
+
 
