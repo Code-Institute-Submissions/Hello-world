@@ -118,6 +118,23 @@ h3{
     padding-top: 0;
 }
 
+.square-container{
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: grey;
+    margin: 10px auto;
+}
+
+#kevin-bg{
+    background: url('../images/Kevin.jpg') no-repeat center center;
+    height: 100%;
+    background-position-x: center;
+    background-position-y: -30px;
+}
+
+
+
 
 
 
