@@ -51,6 +51,14 @@ h3{
     background-attachment: scroll;
 }
 
+.callout-container-membership{ 
+    height: 100vh;
+    background: url('../images/cafe.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    background-attachment: scroll;
+}
+
 .call-to-join{
     color: white;
     padding-top: 250px;
