@@ -20,6 +20,17 @@
     margin-right: 20px;
 }
 
+
+   /* Customised toggler button color with help from this (old) post https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/ */        
+        .custom-toggler.navbar-toggler { 
+            border-color: lightgreen; 
+        } 
+        
+        .custom-toggler .navbar-toggler-icon { 
+            background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+        } 
+
 .menu-bar .active{
     color: yellow;
 }
@@ -37,6 +48,7 @@ h3{
 
 .callout-container{ 
     height: 100vh;
+    width: 100%;
     background: url('../images/gym.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
@@ -44,7 +56,7 @@ h3{
 }
 
 .callout-container-about{ 
-    height: 100vh;
+    height: 140vh;
     background: url('../images/team.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
@@ -60,7 +72,7 @@ h3{
 }
 
 .callout-container-join{ 
-    height: 100vh;
+    height: 140vh;
     background: url('../images/battle-ropes.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
@@ -202,6 +214,11 @@ h3{
 }
 
 .membership-title{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gym-reviews{
     padding-top: 50px;
     padding-bottom: 50px;
 }
