@@ -59,6 +59,14 @@ h3{
     background-attachment: scroll;
 }
 
+.callout-container-join{ 
+    height: 100vh;
+    background: url('../images/battle-ropes.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    background-attachment: scroll;
+}
+
 .call-to-join{
     color: white;
     padding-top: 250px;
