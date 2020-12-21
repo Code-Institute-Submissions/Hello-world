@@ -11,30 +11,34 @@
 <body>
     <header>
         <!--Logo and nav bar, used navbar template from bootstrap-->
-       <nav class="navbar menu-bar navbar-expand-lg">
-  <div class="container-fluid">
-    <a class="navbar-brand logo-style" href="index.html">New Gym</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link menu-list" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link menu-list" href="about.html">About Us</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link menu-list" href="membership.html">Membership</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link menu-list active" aria-current="page" href="join.html">Join Now</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+     <div id="container">
+        <nav class="navbar menu-bar navbar-expand-lg">
+            <!-- Logo -->
+            <a class="navbar-brand logo-style" id="logo-hover" href="index.html">New Gym</a>
+            <!--Toggle button from bootstrap then customised-->
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <!--Collapsible navbar content-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ml-auto" id="menu-hover">
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-list" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-list" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-list" href="membership.html">Membership</a>
+                    </li>
+                    <li class="nav-item mr-2 active">
+                        <a class="nav-link menu-list active" href="join.html">Join Now</a>
+                    </li>
+                </ul>
+            </div>
+        
+        </nav>
+        </div>
     </header> 
     <article class="container">
         <div class="row">
@@ -64,50 +68,35 @@
     </div> 
     </div> 
 
-    <section class="membership-options">
-        <!--membership package options-->
+    <section class="gym-reviews">
+        <!--gym review quotes-->
         <div class="row">
-            <div class="col-12">
-                <h3 class="fw-bold text-center fs-1 membership-title">Membership Options (price per month)</h3>
+            <div class="d-none d-md-block col-md-12">
+                <h3 class="fw-bold text-center fs-1 membership-title">What our members say about us:</h3>
             </div>
         </div>
         <div class="row">
         <div class="col-12 col-md-4">
         <div class="text-center">
-        <!--icon using font awesome template with added styling-->
-        <i class="fas fa-dumbbell fs-1 my-3"></i>
-            <h3 class="fw-bold">Gym only = £20</h3>
+        <div class="col-12 d-md-none text-center">      
+            <h4 class="text-center fw-bold">"Best gym I've ever <br>been a member of!" <br>Katie M.</h4>
+        </div>
         <div class="d-none d-md-block col-md-12">      
-            <p class="text-center">50+ strength machines <br> 100+ free weights <br> 50+ cardio machines <br> TRX suspension trainer <br> Olympic lifting zone</p>
-        </div> 
-        <div class="col-12 d-md-none text-center">      
-            <p class="text-center">50+ strength machines <br> 100+ free weights <br> 50+ cardio machines <br> TRX suspension trainer <br> Olympic lifting zone</p>
+            <h4 class="text-center fw-bold">"Best gym I've ever <br>been a member of!" <br>Katie M.</h4>
         </div> 
         </div>
         </div> 
         <div class="col-12 col-md-4">
         <div class="text-center">
-        <!--icon using font awesome template with added styling-->
-        <i class="fas fa-swimmer fs-1 my-3"></i>
-            <h3 class="fw-bold">Swim & Spa only = £25</h3>
-         <div class="d-none d-md-block col-md-12">      
-            <p class="text-center">25m indoor pool <br> Hot tub <br> Whirlpool <br> Steam room <br> Sauna</p>
-        </div> 
-        <div class="col-12 d-md-none text-center">      
-            <p class="text-center">25m indoor pool <br> Hot tub <br> Whirlpool <br> Steam room <br> Sauna</p>
+        <div class="d-none d-md-block col-md-12">      
+            <h4 class="text-center fw-bold">"Excellent facilities <br>and always clean" <br>Freddie T.</h4>
         </div> 
         </div>
         </div>
         <div class="col-12 col-md-4">
         <div class="text-center">
-        <!--icon using font awesome template with added styling-->
-        <i class="fas fa-heartbeat fs-1 my-3"></i>
-            <h3 class="fw-bold">Classes only = £30</h3>
-         <div class="d-none d-md-block col-md-12">      
-            <p class="text-center">20+ classes every week <br> Includes: spin, step, yoga, <br>dance, aquafit, boxercise <br>and bodypump classes</p>
-        </div> 
-        <div class="col-12 d-md-none text-center">      
-            <p class="text-center">20+ classes every week <br> Includes: spin, step, yoga, <br>dance, aquafit, boxercise <br>and bodypump classes</p>
+        <div class="d-none d-md-block col-md-12">      
+            <h4 class="text-center fw-bold">"I love the classes. <br>They're so much fun!" <br>Jenny S.</h4>
         </div> 
         </div>
         </div>
@@ -128,5 +117,9 @@
             <p>Copyright © 2020 New Gym</p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
 </body>
 </html>
