@@ -119,11 +119,12 @@ h3{
 }
 
 .square-container{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-style: solid;
     border-color: grey;
     margin: 10px auto;
+    border-radius: 50%;
 }
 
 #kevin-bg{
@@ -131,6 +132,47 @@ h3{
     height: 100%;
     background-position-x: center;
     background-position-y: -30px;
+    border-radius: 50%;
+}
+
+#louise-bg{
+    background: url('../images/Louise.jpg') no-repeat center center;
+    height: 100%;
+    background-position-x: 55%;
+    background-position-y: 18%;
+    border-radius: 50%;
+}
+
+#charles-bg{
+    background: url('../images/Charles.jpg') no-repeat center center;
+    height: 100%;
+    background-position-x: 55%;
+    background-position-y: 10%;
+    border-radius: 50%;
+}
+
+#tony-bg{
+    background: url('../images/tony.jpg') no-repeat center center;
+    height: 100%;
+    background-position-x: 35%;
+    background-position-y: 25%;
+    border-radius: 50%;
+}
+
+#claire-bg{
+    background: url('../images/Claire.jpg') no-repeat center center;
+    height: 100%;
+    background-position-x: 50%;
+    background-position-y: 25%;
+    border-radius: 50%;
+}
+
+#amanda-bg{
+    background: url('../images/Amanda.jpg') no-repeat center center;
+    height: 100%;
+    background-position-x: 50%;
+    background-position-y: 25%;
+    border-radius: 50%;
 }
 
 
