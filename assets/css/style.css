@@ -76,17 +76,27 @@ h2{text-transform: uppercase;
 }
 
 .call-to-join{
-    color: white;
-    
+    color: black;
+    background-color: white;
+    width: 500px;
+    padding-bottom: 30px;  
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
 }
 
 .call-to-join-mobile{
-    color: white;
-    padding-top: 350px;
+    color: black;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
 }
 
 .btn-warning{
-    margin-left: 80px;
+    object-position: center;
 }
 
 .button-mobile{
@@ -97,7 +107,7 @@ h2{text-transform: uppercase;
     height: 105vh;
     background: url('../images/class.jpg') no-repeat center center fixed;
     background-size: cover;
-    position: relative;
+    position: absolute;
     background-attachment: scroll;    
 }
 
