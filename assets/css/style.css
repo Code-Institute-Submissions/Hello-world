@@ -105,9 +105,9 @@ h2{text-transform: uppercase;
 
 .classes-container{ 
     height: 105vh;
-    background: url('../images/class.jpg') no-repeat center center fixed;
+    background: url('../images/exercise.jpg') no-repeat center center fixed;
     background-size: cover;
-    position: absolute;
+    position: relative;
     background-attachment: scroll;    
 }
 
@@ -116,21 +116,12 @@ h2{text-transform: uppercase;
     margin-top: 80px;
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+.exercise-classes h2{
+    color:yellow;
 }
 
 .exercise-classes p{
-    color: white;
-}
-
-.exercise-classes h2{
-    color: white;
+    color:yellow;
 }
 
 .timings{
