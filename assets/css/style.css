@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 .menu-bar{
-    background-color: grey;
+    background-color: #424242;
     width: 100%;
 }
 
@@ -40,10 +40,6 @@
 }
 
 h2{text-transform: uppercase;
-}
-
-h3{
-    text-decoration: underline;
 }
 
 .callout-container{ 
@@ -234,6 +230,15 @@ h3{
     padding-bottom: 50px;
 }
 
+.membership-options{
+    background-color: grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.membership-options p{
+    color: white;
+}
+
 .icon{
     color: yellow;
 }
@@ -276,6 +281,10 @@ h3{
     background-position-y: 35%;
     border-radius: 50%;
     background-size: 100%;
+}
+
+.footer{
+    background-color: #424242;
 }
 
 
