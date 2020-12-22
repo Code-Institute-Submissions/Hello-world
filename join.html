@@ -47,19 +47,44 @@
     <div class="col-12 d-md-none">
      <div class="call-to-join-mobile text-center">
         <p class="text-uppercase fs-3 fw-bold">Your fitness <br>improves here.</p>
-    <!--button, used button template from Bootstrap-->
-    <a class="btn btn-warning text-uppercase fw-bold" href="join.html" role="button">Join Now</a>
+     <!--form, used form template from Bootstrap then styled-->
+    <form>
+    <div class="form-group col-11 mx-auto">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group col-11 mx-auto">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <br>
+        <button type="submit" class="btn btn-warning text-uppercase fw-bold">Join Now</button>
+    </form>
     </div>
     </div>
+    </div>
+    
     <!--styling for callout on large screen sizes-->
     <div class="d-none d-lg-block col-lg-12">
     <div class="call-to-join text-center">
         <p class="text-uppercase fs-1 fw-bold">Your fitness <br>improves here.</p>
-    <!--button, used button template from Bootstrap-->
-    <a class="btn btn-warning text-uppercase fw-bold" href="join.html" role="button">Join Now</a>
+
+    <!--form, used form template from Bootstrap then styled-->
+    <form>
+    <div class="form-group col-9 mx-auto">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp2" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group col-9 mx-auto">
+        <label for="exampleInputPassword2">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+    </div>
+    <br>
+        <button type="submit" class="btn btn-warning text-uppercase fw-bold">Join Now</button>
+    </form>
     </div>
     </div> 
-    </div>
     </section>
 
     <section class="gym-reviews">
