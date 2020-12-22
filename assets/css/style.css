@@ -222,6 +222,21 @@ h3{
     padding-bottom: 50px;
 }
 
+.features{
+    background-color: grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.icon{
+    color: yellow;
+}
+
+.features p{
+    color: white;
+}
+
+
 
 
 
