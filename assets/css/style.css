@@ -151,8 +151,8 @@ h3{
 }
 
 .square-container{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-style: solid;
     border-color: grey;
     margin: 10px auto;
@@ -163,8 +163,9 @@ h3{
     background: url('../images/Kevin.jpg') no-repeat center center;
     height: 100%;
     background-position-x: center;
-    background-position-y: -30px;
+    background-position-y: -10px;
     border-radius: 50%;
+    background-size: 100%;
 }
 
 #louise-bg{
@@ -173,14 +174,16 @@ h3{
     background-position-x: 55%;
     background-position-y: 18%;
     border-radius: 50%;
+    background-size: 100%;
 }
 
 #charles-bg{
     background: url('../images/Charles.jpg') no-repeat center center;
     height: 100%;
     background-position-x: 55%;
-    background-position-y: 10%;
+    background-position-y: 0%;
     border-radius: 50%;
+    background-size: 100%;
 }
 
 #tony-bg{
@@ -189,6 +192,7 @@ h3{
     background-position-x: 35%;
     background-position-y: 25%;
     border-radius: 50%;
+    background-size: 100%;
 }
 
 #claire-bg{
@@ -197,6 +201,7 @@ h3{
     background-position-x: 50%;
     background-position-y: 25%;
     border-radius: 50%;
+    background-size: 100%;
 }
 
 #amanda-bg{
@@ -205,6 +210,7 @@ h3{
     background-position-x: 50%;
     background-position-y: 25%;
     border-radius: 50%;
+    background-size: 100%;
 }
 
 .membership-options{
