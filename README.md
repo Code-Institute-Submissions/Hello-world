@@ -62,6 +62,18 @@ The footer is the same dark grey colour as the navbar to provide consistency in 
 * A telephone contact is provided beneath the form in case the user would rather sign-up via an alternative method, or in case they experienced any issues with the website sign up process.
 * Includes quotes from current gym members, along with their names and a small photo of them to provide greater credibility to the reviews which will help to convince the user to join.
 
+### Features changed from wireframes
+* On small tablet devices like an iPad, the About Us page profile pictures and job role infor looked too cluttered at third screen width and half screen width. I changed the design so that on small devices the profile pictures were col-12, the same as mobile devices, but included the extra job role info that isn't shown on mobile devices.
+* Changed navbar and footer colour to darker grey to make the white and yellow text more readable, whilst still fitting with the brand colours.
+* Changed some of the images to higher quality images than didn't pixelate when enlarged.
+* Changed all font awesome icons to yellow colour to fit with the brand colours and to make them stand out better to the user.
+* Centered the social media icons and copyright information in the footer bar as this looked better on the website.
+* Changed the background colour on the main features section of the Home page and Membership page to add colour to the pages and to provide contrast to the icons to help them stand out. Also changed text colour for better readability.
+* Removed underline from headings and the website looked better without these.
+* Added a white background to the callout message and Join Now button to make it stand out better from the background hero image.
+* Changed the position of the callout message and Join Now button to top right of the hero image, to make it one of the first items the user can see on the webpage and so that the user doesn't have to scroll down the page to get to the Join Now button.
+* Added a picture to the quotes section on the Join Now page to give the reviews better credibility from the User's point of view. Also removed bold styling of the quote text and made the names a smaller font to improve the visual appeal of this section. 
+
 ### Features left to implement:
 * If I had more time to improve my website, I would add a page detailing the gym classes available with a description for each class. This could be further improved in the future by adding photos or a video clip to improve the user’s understanding and website experience.
 * To improve the website further I could add a proper logo rather than just the name of the gym. This would provide a greater visual appeal and look more professional.
@@ -84,6 +96,7 @@ The footer is the same dark grey colour as the navbar to provide consistency in 
 * Once my navbar was working, I wanted to style the navigation tabs on the navbar to white with the text of the active page in yellow. I also wanted to change the colour of the navbar toggler to fit with the brand theme. I found the bootstrap styling options were either navbar-light or navbar-dark. I removed these styling options and used CSS to style the text colours. This caused the toggler to disappear from the user's view but it was able to be clicked still. I did some internet research into this problem and found this [post](https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/) on GeeksforGeeks that gave me the code to implement the change of toggler colour. I then edited this code to get the yellow colour I wanted. 
 * When viewed on a small tablet device (like an iPad), the profile picture images on the About Us page overlapped. I found this to be because I had set the container size for the images at 400px x 400px and this was bigger than the 1/3 screen width of the Bootstrap grid on a mobile device. I fixed this issue by reducing the container size to 300px x 300px.
 * When viewed on a small tablet device, the call-out container was hidden. When I was looking at my code I realised that I had styled for mobile and larger screen sizes but not medium devixes. This made me realise that I could do one responsive style across all devices instead of seperate styling for each screen width. I re-did my code and simplified the css. the result was that the callout message and Join Now form were in the same position on every page (top right of the hero image). Furthermore, this was the same across all device sizes. This provides the user with a more consistent experience across each page and across different devices.
+* When viewed on a iPad device I found that there was still a bug with the About Us page profile pictures overlapping. Viewing it on a desktop screen, as I reduced the screen size I could see that there were points at which the profile pictures overlapped before changing col format as the screen sized reduced further. This was why I hadn't picked up the issue before, because it worked on small tablet devices but not at specific sizes like the iPad size. This made me realise that I didn't have enough breakpoint column widths in my code. I added this extra detail to my code so that the layout changed before the profile pictures could overlap to fix this issue.
 
 ### Credits
 * The text on the website was created by myself.
