@@ -125,10 +125,10 @@ h2{text-transform: uppercase;
 }
 
 .classes-container{ 
-    height: 105vh;
+    height: auto;
     background: url('../images/exercise.jpg') no-repeat center center fixed;
     background-size: cover;
-    position: relative;
+    position: absolute;
     background-attachment: scroll;    
 }
 

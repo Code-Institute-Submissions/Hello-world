@@ -88,8 +88,16 @@ The footer is the same dark grey colour as the navbar to provide consistency in 
 * [Font Awesome](https://fontawesome.com/icons?d=gallery) for the social media icons in the footer; map-marker, phone and clock for the feature icons on the Home page and for the membership package icons on the Membership page.
 * [Google Fonts](https://fonts.google.com/) used to style the headings and main text across all my pages.
 * [Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=212121&secondary.color=FFFF00) used to decide the shade of grey for the navbar, background colour and footer. I also used the accessibility feature to find what coloured text to use with the background for good readability for the user. 
+* [W3C Markup Validation Service](https://validator.w3.org/) used to check the validity of my html code for all .html pages.
+* [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_input) used to check the validity of my css code in my style.css file.
 
 ### Testing
+#### HTML Validation
+* I used the [W3C Markup Validation Service](https://validator.w3.org/) to check my html code. On the first page I checked (index.html) I had an error message 'Warning section lacks heading' relating to my callout message on the hero image. I changed the callout message tag from a paragraph to a heading 1 and this corrected the error. I updated this change on all of my html pages.
+* Another error was raised on my join.html page 'the aria-describedby attribute must point to an element in the same document'. I realised that this related to a part of the form that I had decided to remove (a decalration that the User's email would not be shared with anyone else that I decided to remove to give the form a cleaner look). I therefore removed this part from my code and no further errors were found. 
+
+#### CSS Validation
+* I used the [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_input) to check my css code. No errors were found by the validator.
 
 #### Bugs Found
 * I used a Bootstrap template for the navbar but when viewed on a mobile device, the navbar did not collapse as expected. The toggle item was hidden and no menu dropped down when clicked. I initially changed my code using the Code Institute Whiskey landing page tutorial as an example, thinking it was a coding error. However, this did not fix the issue. I then researched on the Code Institute Slack channel and found this [post](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1592942326084700?thread_ts=1592936056.080800&cid=C7J2ZAVHB) from JosV which gave three scripts to add at the end of the body section. This fixed my error.
