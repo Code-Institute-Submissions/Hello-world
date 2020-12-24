@@ -70,11 +70,13 @@ The footer is the same dark grey colour as the navbar to provide consistency in 
 * Centered the social media icons and copyright information in the footer bar as this looked better on the website.
 * Changed the background colour on the main features section of the Home page and Membership page to add colour to the pages and to provide contrast to the icons to help them stand out. Also changed text colour for better readability.
 * Removed underline from headings and the website looked better without these.
-* Added a white background to the callout message and Join Now button to make it stand out better from the background hero image.
+* Added an opaque overlay to the hero images and exercise class image on the Home page to make the callout message and Join Now button stand out better from the background hero image, to draw the user's attention to this feature. Also to make the exercise class timetable easier to read.
 * Changed the position of the callout message and Join Now button to top right of the hero image, to make it one of the first items the user can see on the webpage and so that the user doesn't have to scroll down the page to get to the Join Now button.
 * Added a picture to the quotes section on the Join Now page to give the reviews better credibility from the User's point of view. Also removed bold styling of the quote text and made the names a smaller font to improve the visual appeal of this section. 
+* Changed the membership package layout and texct styling to improve its visual appearance.
+* Adding extra padding or margin to the logo, navbar navigation tabs and navbar-toggler icon to give them a better look.
 
-### Features left to implement:
+### Future scope:
 * If I had more time to improve my website, I would add a page detailing the gym classes available with a description for each class. This could be further improved in the future by adding photos or a video clip to improve the user’s understanding and website experience.
 * To improve the website further I could add a proper logo rather than just the name of the gym. This would provide a greater visual appeal and look more professional.
 * In the future I could add greater content for new and current members like workout videos or incorporate a fitness blog.
@@ -114,6 +116,8 @@ Based on the User stories from above.
 * When viewed on a small tablet device (like an iPad), the profile picture images on the About Us page overlapped. I found this to be because I had set the container size for the images at 400px x 400px and this was bigger than the 1/3 screen width of the Bootstrap grid on a mobile device. I fixed this issue by reducing the container size to 300px x 300px.
 * When viewed on a small tablet device, the call-out container was hidden. When I was looking at my code I realised that I had styled for mobile and larger screen sizes but not medium devixes. This made me realise that I could do one responsive style across all devices instead of seperate styling for each screen width. I re-did my code and simplified the css. the result was that the callout message and Join Now form were in the same position on every page (top right of the hero image). Furthermore, this was the same across all device sizes. This provides the user with a more consistent experience across each page and across different devices.
 * When viewed on a iPad device I found that there was still a bug with the About Us page profile pictures overlapping. Viewing it on a desktop screen, as I reduced the screen size I could see that there were points at which the profile pictures overlapped before changing col format as the screen sized reduced further. This was why I hadn't picked up the issue before, because it worked on small tablet devices but not at specific sizes like the iPad size. This made me realise that I didn't have enough breakpoint column widths in my code. I added this extra detail to my code so that the layout changed before the profile pictures could overlap to fix this issue.
+* The footer disappeared from the Home page. I found this to have been caused by using an incorrect positioning command on the exercise classes photo. I removed the positioning command to fix this error.
+* When I added the media query to reduce the profile picture sizes on devices less than 768px (on the About Us page), the images reduced but the large circle remained visible. This was because the square-container class was still active. I decided to remove the container and apply the styling direct to the background image and this fixed the issue. 
 
 ### Credits
 * The text on the website was created by myself.

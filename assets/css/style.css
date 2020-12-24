@@ -164,16 +164,6 @@ h2{
     padding-bottom: 50px;
 }
 
-/* Profile picture container styling on About Us page */
-.square-container{
-    width: 300px;
-    height: 300px;
-    border-style: solid;
-    border-color: grey;
-    margin: 10px auto;
-    border-radius: 50%;
-}
-
 /* Profile pictures styling on About Us page */
 #kevin-bg{
     background: url('../images/kevin.jpg') no-repeat center center;
@@ -182,6 +172,12 @@ h2{
     background-position-y: -10px;
     border-radius: 50%;
     background-size: 100%;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: grey;
+    margin: 10px auto;
+    border-radius: 50%;
 }
 
 #louise-bg{
@@ -191,6 +187,12 @@ h2{
     background-position-y: 18%;
     border-radius: 50%;
     background-size: 100%;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: grey;
+    margin: 10px auto;
+    border-radius: 50%;
 }
 
 #charles-bg{
@@ -200,6 +202,12 @@ h2{
     background-position-y: 0%;
     border-radius: 50%;
     background-size: 100%;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: grey;
+    margin: 10px auto;
+    border-radius: 50%;
 }
 
 #tony-bg{
@@ -209,6 +217,12 @@ h2{
     background-position-y: 25%;
     border-radius: 50%;
     background-size: 100%;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: grey;
+    margin: 10px auto;
+    border-radius: 50%;
 }
 
 #claire-bg{
@@ -218,6 +232,12 @@ h2{
     background-position-y: 25%;
     border-radius: 50%;
     background-size: 100%;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: grey;
+    margin: 10px auto;
+    border-radius: 50%;
 }
 
 #amanda-bg{
@@ -227,6 +247,12 @@ h2{
     background-position-y: 25%;
     border-radius: 50%;
     background-size: 100%;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: grey;
+    margin: 10px auto;
+    border-radius: 50%;
 }
 
 /* Positioning of membership package info on Membership page */
@@ -316,6 +342,49 @@ h2{
     background-color: #424242;
 }
 
+@media screen and (max-width: 768px){
+    #kevin-bg {width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: grey;
+    margin: 10px auto;
+    border-radius: 50%;}
+
+    #louise-bg {width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: grey;
+    margin: 10px auto;
+    border-radius: 50%;}
+
+    #charles-bg {width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: grey;
+    margin: 10px auto;
+    border-radius: 50%;}
+
+    #tony-bg {width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: grey;
+    margin: 10px auto;
+    border-radius: 50%;}
+
+    #claire-bg {width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: grey;
+    margin: 10px auto;
+    border-radius: 50%;}
+
+    #amanda-bg {width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: grey;
+    margin: 10px auto;
+    border-radius: 50%;}
+}
 
 
 
