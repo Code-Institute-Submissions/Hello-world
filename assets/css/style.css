@@ -1,10 +1,13 @@
+/* Google fonts link */
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/* Navbar background styling */
 .menu-bar{
     background-color: #424242;
     width: 100%;
 }
 
+/* Logo styling */
 .menu-bar .logo-style{
     color: yellow;
     text-transform: uppercase;
@@ -13,6 +16,7 @@
     letter-spacing: 2px;
 }
 
+/* Menu bar navigation tab text styling*/
 .menu-bar .menu-list{
     color: white;
     letter-spacing: 1px;
@@ -20,28 +24,27 @@
     margin-right: 20px;
 }
 
+/* Toggler button border colour styling */
+.custom-toggler.navbar-toggler{ 
+    border-color: yellow; 
+} 
 
-   /* Customised toggler button color with help from this (old) post https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/ */        
-        .custom-toggler.navbar-toggler { 
-            border-color: yellow; 
-        } 
-        
-        .custom-toggler .navbar-toggler-icon { 
-            background-image: url( 
+/* Customised toggler button color with help from this (old) post https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/ */
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='yellow' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
-        } 
+} 
 
+/* Navbar navigation tab text styling for active page */
 .menu-bar .active{
     color: yellow;
 }
 
-.navbar-toggler-icon{
-    color: yellow;
-}
-
+/* h2 text styling */
 h2{text-transform: uppercase;
 }
 
+/* Home page hero image styling */
 .callout-container{ 
     height: 80vh;
     width: 100%;
@@ -51,6 +54,7 @@ h2{text-transform: uppercase;
     background-attachment: scroll;
 }
 
+/* About Us page hero image styling */
 .callout-container-about{ 
     height: 140vh;
     background: url('../images/team.jpg') no-repeat center center fixed;
@@ -59,6 +63,7 @@ h2{text-transform: uppercase;
     background-attachment: scroll;
 }
 
+/* Membership page hero image styling */
 .callout-container-membership{ 
     height: 100vh;
     background: url('../images/cafe.jpg') no-repeat center center fixed;
@@ -67,6 +72,7 @@ h2{text-transform: uppercase;
     background-attachment: scroll;
 }
 
+/* Join Now page hero image styling */
 .callout-container-join{ 
     height: 110vh;
     background: url('../images/front-squat.jpg') no-repeat center center fixed;
@@ -75,6 +81,7 @@ h2{text-transform: uppercase;
     background-attachment: scroll;
 }
 
+/* Callout message styling for Home, About Us and Membership pages  */
 .call-to-join{
     color: black;
     background-color: white;
@@ -85,26 +92,7 @@ h2{text-transform: uppercase;
     right: 10px;
 }
 
-.call-to-join-about{
-    color: black;
-    background-color: white;
-    width: 300px;
-    padding-bottom: 10px;
-    position: absolute;
-    top: 30px;
-    right: 10px;
-}
-
-.call-to-join-membership{
-    color: black;
-    background-color: white;
-    width: 300px;
-    padding-bottom: 10px;
-    position: absolute;
-    top: 30px;
-    right: 10px;
-}
-
+/* Callout message/sign up form styling for Join Now page */
 .call-to-join-join{
     color: black;
     background-color: white;
@@ -116,14 +104,17 @@ h2{text-transform: uppercase;
     right: 10px;
 }
 
+/* Join Now button styling */
 .btn-warning{
     object-position: center;
 }
 
+/* Join Now button styling for mobile devices */
 .button-mobile{
     margin-left: 70px;
 }
 
+/* Home page exercise class (behind class timetable) background image styling */
 .classes-container{ 
     height: auto;
     background: url('../images/exercise.jpg') no-repeat center center fixed;
@@ -132,6 +123,7 @@ h2{text-transform: uppercase;
     background-attachment: scroll;    
 }
 
+/* Positioning and styling of text on exercise class timetable */
 .class-info{
     margin-left: 35px;
     margin-top: 80px;
@@ -149,6 +141,7 @@ h2{text-transform: uppercase;
     font-size: 120%;
 }
 
+/* Styling of social media icons */
 .social-media i{
     margin-right:20px;
     margin-top: 20px;
@@ -156,6 +149,7 @@ h2{text-transform: uppercase;
     font-size: 40px;
 }
 
+/* Styling of copyright text */
 .copyright{
     font-size: 20px;
     color: white;
@@ -163,11 +157,13 @@ h2{text-transform: uppercase;
     padding-top: 0;
 }
 
+/* Positioning of profile picture section on About Us page */
 .meet-us{
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
+/* Profile picture container styling on About Us page */
 .square-container{
     width: 300px;
     height: 300px;
@@ -177,6 +173,7 @@ h2{text-transform: uppercase;
     border-radius: 50%;
 }
 
+/* Profile pictures styling on About Us page */
 #kevin-bg{
     background: url('../images/kevin.jpg') no-repeat center center;
     height: 100%;
@@ -231,6 +228,7 @@ h2{text-transform: uppercase;
     background-size: 100%;
 }
 
+/* Positioning of membership package info on Membership page */
 .membership-options{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -241,17 +239,20 @@ h2{text-transform: uppercase;
     padding-bottom: 50px;
 }
 
+/* Positioning of quotes section on Join Now page */
 .gym-reviews{
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
+/* Background and positioning styling of features section on Home page*/
 .features{
     background-color: grey;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
+/* Background and positioning styling of membership packages section on Membership page*/
 .membership-options{
     background-color: grey;
     padding-top: 50px;
@@ -261,14 +262,17 @@ h2{text-transform: uppercase;
     color: white;
 }
 
+/* Styling of font awesome icons in main text of Home and Membership pages */
 .icon{
     color: yellow;
 }
 
+/* Text styling of features section on Home page*/
 .features p{
     color: white;
 }
 
+/* Gym members picture container styling on Join Now page */
 .square-container-join{
     width: 150px;
     height: 150px;
@@ -278,6 +282,7 @@ h2{text-transform: uppercase;
     border-radius: 50%;
 }
 
+/* Gym members pictures styling on Join Now page */
 #jenny-bg{
     background: url('../images/jenny.jpg') no-repeat center center;
     height: 100%;
@@ -305,6 +310,7 @@ h2{text-transform: uppercase;
     background-size: 100%;
 }
 
+/* Footer background styling */
 .footer{
     background-color: #424242;
 }
