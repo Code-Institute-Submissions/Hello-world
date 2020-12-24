@@ -81,27 +81,25 @@ h2{text-transform: uppercase;
     background-attachment: scroll;
 }
 
-/* Callout message styling for Home, About Us and Membership pages  */
-.call-to-join{
-    color: black;
-    background-color: white;
-    width: 300px;
-    padding-bottom: 10px;
-    position: absolute;
-    top: 30px;
-    right: 10px;
+/* Callout container styling for all pages  */
+.call-out{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* Callout message/sign up form styling for Join Now page */
-.call-to-join-join{
-    color: black;
-    background-color: white;
-    width: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: absolute;
-    top: 30px;
-    right: 10px;
+/* Callout message text styling for all pages  */
+.callout-message{
+    font-size: 50px !important;
+    color: white; 
+}
+
+/* Sign up form text styling for Join Now page */
+.form-group{
+    color: white;
 }
 
 /* Join Now button styling */
