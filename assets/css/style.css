@@ -14,7 +14,7 @@
     font-weight: bold;
     font-size: 40px;
     letter-spacing: 2px;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 /* Menu bar navigation tab text styling*/
@@ -28,7 +28,7 @@
 /* Toggler button border colour styling and gave right margin to look better on the screen */
 .custom-toggler.navbar-toggler{ 
     border-color: yellow; 
-    margin-right: 30px;
+    margin-right: 10px;
 } 
 
 /* Customised toggler button color with help from this (old) post https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/ */
@@ -60,7 +60,7 @@ h2{
 
 /* About Us page hero image styling */
 .callout-container-about{ 
-    height: 140vh;
+    height: 100vh;
     background: url('../images/team.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
@@ -78,7 +78,7 @@ h2{
 
 /* Join Now page hero image styling */
 .callout-container-join{ 
-    height: 110vh;
+    height: 130vh;
     background: url('../images/front-squat.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
@@ -342,6 +342,7 @@ h2{
     background-color: #424242;
 }
 
+/* media query to reduce profile picture sizes on About Us page below medium breakpoint*/
 @media screen and (max-width: 768px){
     #kevin-bg {width: 200px;
     height: 200px;
@@ -386,6 +387,16 @@ h2{
     border-radius: 50%;}
 }
 
+/* media query to reduce hero image size on Join Now page above medium breakpoint*/
+@media screen and (min-width: 768px){
+    #join-hero{
+    height: 100vh;
+    }
+}
 
-
-
+/* media query to increase padding-left on logo in navbar on all pages above small breakpoint*/
+@media screen and (min-width: 576px){
+    #logo-hover{
+        padding-left: 30px;
+    }
+}

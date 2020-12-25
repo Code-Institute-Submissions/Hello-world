@@ -74,7 +74,7 @@ The footer is the same dark grey colour as the navbar to provide consistency in 
 * Changed the position of the callout message and Join Now button to top right of the hero image, to make it one of the first items the user can see on the webpage and so that the user doesn't have to scroll down the page to get to the Join Now button.
 * Added a picture to the quotes section on the Join Now page to give the reviews better credibility from the User's point of view. Also removed bold styling of the quote text and made the names a smaller font to improve the visual appeal of this section. 
 * Changed the membership package layout and texct styling to improve its visual appearance.
-* Adding extra padding or margin to the logo, navbar navigation tabs and navbar-toggler icon to give them a better look.
+* Adding extra padding or margin to the logo, navbar navigation tabs and navbar-toggler icon to give them a better look. Added a media query to further increase padding-left of logo above small breakpoint for improved visual appearance.
 
 ### Future scope:
 * If I had more time to improve my website, I would add a page detailing the gym classes available with a description for each class. This could be further improved in the future by adding photos or a video clip to improve the user’s understanding and website experience.
@@ -118,6 +118,7 @@ Based on the User stories from above.
 * When viewed on a iPad device I found that there was still a bug with the About Us page profile pictures overlapping. Viewing it on a desktop screen, as I reduced the screen size I could see that there were points at which the profile pictures overlapped before changing col format as the screen sized reduced further. This was why I hadn't picked up the issue before, because it worked on small tablet devices but not at specific sizes like the iPad size. This made me realise that I didn't have enough breakpoint column widths in my code. I added this extra detail to my code so that the layout changed before the profile pictures could overlap to fix this issue.
 * The footer disappeared from the Home page. I found this to have been caused by using an incorrect positioning command on the exercise classes photo. I removed the positioning command to fix this error.
 * When I added the media query to reduce the profile picture sizes on devices less than 768px (on the About Us page), the images reduced but the large circle remained visible. This was because the square-container class was still active. I decided to remove the container and apply the styling direct to the background image and this fixed the issue. 
+* When viewed on a small mobile screen, the toggler button appeared on a line beneath the logo in the navbar. To fix this issue I reduced the padding-left of the logo and reduced the margin-right of the navbar toggler to allow room for both to be on the same line on an iphone which is likely to be a common mobile device used by the website users.
 
 ### Credits
 * The text on the website was created by myself.
