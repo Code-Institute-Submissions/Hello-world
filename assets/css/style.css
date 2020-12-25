@@ -160,8 +160,7 @@ h2{
 
 /* Positioning of profile picture section on About Us page */
 .meet-us{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 
 /* Profile pictures styling on About Us page */
@@ -344,43 +343,43 @@ h2{
 
 /* media query to reduce profile picture sizes on About Us page below medium breakpoint*/
 @media screen and (max-width: 768px){
-    #kevin-bg {width: 200px;
-    height: 200px;
+    #kevin-bg {width: 180px;
+    height: 180px;
     border-style: solid;
     border-color: grey;
     margin: 10px auto;
     border-radius: 50%;}
 
-    #louise-bg {width: 200px;
-    height: 200px;
+    #louise-bg {width: 180px;
+    height: 180px;
     border-style: solid;
     border-color: grey;
     margin: 10px auto;
     border-radius: 50%;}
 
-    #charles-bg {width: 200px;
-    height: 200px;
+    #charles-bg {width: 180px;
+    height: 180px;
     border-style: solid;
     border-color: grey;
     margin: 10px auto;
     border-radius: 50%;}
 
-    #tony-bg {width: 200px;
-    height: 200px;
+    #tony-bg {width: 180px;
+    height: 180px;
     border-style: solid;
     border-color: grey;
     margin: 10px auto;
     border-radius: 50%;}
 
-    #claire-bg {width: 200px;
-    height: 200px;
+    #claire-bg {width: 180px;
+    height: 180px;
     border-style: solid;
     border-color: grey;
     margin: 10px auto;
     border-radius: 50%;}
 
-    #amanda-bg {width: 200px;
-    height: 200px;
+    #amanda-bg {width: 180px;
+    height: 180px;
     border-style: solid;
     border-color: grey;
     margin: 10px auto;

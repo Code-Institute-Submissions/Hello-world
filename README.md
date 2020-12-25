@@ -2,6 +2,8 @@
 
 ## New Gym
 
+
+
 The purpose of this project was to design a website for New Gym, a fictional gym based in Newport, Wales. The website was to provide details about the gym and promote the gym facilities to attract new clients and retain current gym members. The website was to fit with the New Gym brand.
 
 ### Main Aims
@@ -173,4 +175,4 @@ I received inspiration and guidance through my project from:
 * Code Institute mentor Seun Owonikoko.
 * Code Institute mentor Akshat Garg whose feedback throughout the project influenced my website design and content.
 * Miranda (Github user mkthewlis) whose milestone 1 project was provided to me be mentor Seun as a good example of what I should be aiming to achieve in my own project and therefore provided me with inspiration for my own project. 
-
+* I used the [W3schools website](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) to learn how to use media queries to implement in my project, but I didn't copy any code directly from this website.
