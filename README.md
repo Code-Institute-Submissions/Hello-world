@@ -1,35 +1,60 @@
-# Code Institute: Milestone Project 1
+# **Code Institute: Milestone Project 1**
 
-## New Gym
+## **New Gym**
 
-
+![New-gym-website](https://user-images.githubusercontent.com/74603013/103139222-f7891f00-46d1-11eb-9f39-724e313c0d94.jpg)
 
 The purpose of this project was to design a website for New Gym, a fictional gym based in Newport, Wales. The website was to provide details about the gym and promote the gym facilities to attract new clients and retain current gym members. The website was to fit with the New Gym brand.
 
-### Main Aims
+## **UX**
+
+### **Main Aims**
 * To create a website that provides a quick and simple way for new members to join the gym.
 * To create a website that provides the information needed to attract new members and retain current members.
 * To design a website that is both visually appealing and easy to navigate for the wide range of potential users. 
 * To create a website that fits with the gym brand colours of yellow, grey, black and white.
 * To create a website that provides a good user experience on desktop, tablet and mobile devices.
 
-### User Stories
+### **User Stories**
 * I am a local person, who wants to know the opening hours, facilities and price of membership, so that I can decide if I want to become a member of the gym.
 * I am a current member, I want to know what classes are running this week and what day and time they are, so that I can decide which I want to attend.
 * I am the gym manager, I want a website that looks professional, gives users a range of ways to get in contact with the gym and provides a quick and simple process for new members to join the gym, so that I increase the number of gym members.
 * I am a personal trainer, I want to know who currently works at the gym and what services they offer, so that I can decide if I would like to work there.
 * I am a local parent, I want to know if the gym has a swimming pool and if they offer swimming lessons, so that my child can learn to swim.
 
-### Wireframes
+### **Wireframes**
 After listing my main aims and designing the user stories, I first created rough, hand-drawn sketches that showed the basic layout and information that I wanted the website to include.
 
-INSERT SKETCHES
 
-Before I started coding my project, I created wireframes using Balsamiq. I created wireframes for desktop, tablet and mobile devices to decide the layout at different screen sizes. I also used the user stories to add more detail to the website to provide a better user experience.
+![Sketch Home page](https://user-images.githubusercontent.com/74603013/103142832-99c0fb00-4702-11eb-8afd-6bfeadda3097.png)
+![Sketch About Us page](https://user-images.githubusercontent.com/74603013/103142839-dee52d00-4702-11eb-9336-5e78d09d867b.png)
+![Sketch Membership page](https://user-images.githubusercontent.com/74603013/103142844-f91f0b00-4702-11eb-87d0-165f3bb6a7eb.png)
+![Sketch Join page](https://user-images.githubusercontent.com/74603013/103142846-0b00ae00-4703-11eb-831e-373f0bbc0aa8.png)
 
-INSERT WIREFRAMES
+Before I started coding my project, I created wireframes using Balsamiq. I created wireframes for desktop, tablet and mobile devices to decide the layout at different screen sizes. I also used the user stories to add more detail to the website to provide a better user experience. A pdf copy of my wireframes can be found under wireframes in the assets folder.
 
-### Features
+Mobile:
+
+![Mobile Home page](https://user-images.githubusercontent.com/74603013/103142434-dc7ed500-46fa-11eb-8671-0c9d76cf6733.png)
+![Mobile About Us page](https://user-images.githubusercontent.com/74603013/103142446-fd472a80-46fa-11eb-89f9-5365ac35da91.png)
+![Mobile Membership page](https://user-images.githubusercontent.com/74603013/103142459-2a93d880-46fb-11eb-8cce-fe711d236fb0.png)
+![Mobile Join page](https://user-images.githubusercontent.com/74603013/103142465-3ed7d580-46fb-11eb-94f7-f24764ccdd87.png)
+
+Tablet:
+
+![Tablet Home page](https://user-images.githubusercontent.com/74603013/103142497-e228ea80-46fb-11eb-8dc4-549ddee7cd9f.png)
+![Tablet About Us page](https://user-images.githubusercontent.com/74603013/103142504-008ee600-46fc-11eb-87bc-4b9d75fbf6f3.png)
+![Tablet Membership page](https://user-images.githubusercontent.com/74603013/103142509-169ca680-46fc-11eb-8d42-0e8646c6fe62.png)
+![Tablet Join page](https://user-images.githubusercontent.com/74603013/103142513-2f0cc100-46fc-11eb-9789-b82b01aa7e36.png)
+
+Desktop:
+
+![Desktop Home page](https://user-images.githubusercontent.com/74603013/103142365-e0f6be00-46f9-11eb-848f-0b43a230f6ba.png)
+![Desktop About Us page](https://user-images.githubusercontent.com/74603013/103142374-04216d80-46fa-11eb-9f12-6c5e5f5442ea.png)
+![Desktop Membership page](https://user-images.githubusercontent.com/74603013/103142382-1b605b00-46fa-11eb-8c21-593d281553d8.png)
+![Desktop Join page](https://user-images.githubusercontent.com/74603013/103142387-34690c00-46fa-11eb-9a00-2441c2b1b79d.png)
+
+### **Features**
 The website has four separate pages: Home page (index.html), About Us (about.html), Membership (membership.html) and Join Now (join.html).
 Features consistent across the four pages:
 #### Navbar
@@ -64,7 +89,7 @@ The footer is the same dark grey colour as the navbar to provide consistency in 
 * A telephone contact is provided beneath the form in case the user would rather sign-up via an alternative method, or in case they experienced any issues with the website sign up process.
 * Includes quotes from current gym members, along with their names and a small photo of them to provide greater credibility to the reviews which will help to convince the user to join.
 
-### Features changed from wireframes
+### **Features changed from wireframes**
 * On small tablet devices like an iPad, the About Us page profile pictures and job role info looked too cluttered at third screen width and half screen width. I changed the design so that on small devices the profile pictures were col-12, the same as mobile devices, but included the extra job role info that isn't shown on mobile devices.
 * Changed navbar and footer colour to darker grey to make the white and yellow text more readable, whilst still fitting with the brand colours.
 * Changed some of the images to higher quality images than didn't pixelate when enlarged.
@@ -78,14 +103,14 @@ The footer is the same dark grey colour as the navbar to provide consistency in 
 * Changed the membership package layout and text styling to improve its visual appearance.
 * Adding extra padding or margin to the logo, navbar navigation tabs and navbar-toggler icon to give them a better look. Added a media query to further increase padding-left of logo above small breakpoint for improved visual appearance.
 
-### Future scope:
+### **Future scope:**
 * If I had more time to improve my website, I would add a page detailing the gym classes available with a description for each class. This could be further improved in the future by adding photos or a video clip to improve the user’s understanding and website experience.
 * To improve the website further I could add a proper logo rather than just the name of the gym. This would provide a greater visual appeal and look more professional.
 * In the future I could add greater content for new and current members like workout videos or incorporate a fitness blog.
 * For a real-life gym, the Join Now form would need to be more sophisticated, gathering more of the user's data and linking to a secure payment process that allows the user to sign up to the gym and make their membership payments.
 * In the future a feature that allowed gym members to book onto gym classes would be useful as well as a member’s log-in area where they could see what classes they have booked to attend.
 
-### Technologies Used:
+### **Technologies Used:**
 * HTML5 to create the .html pages.
 * CSS to style the html pages.
 * [Bootstrapv5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) used for the grid layout to make the website responsive and to style appropriately for different screen sizes, to improve the user experience. I also used the bootstrap templates for the navbar (including the toggle button feature), Join Now buttons and the form for signing up to the gym.
@@ -94,8 +119,9 @@ The footer is the same dark grey colour as the navbar to provide consistency in 
 * [Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=212121&secondary.color=FFFF00) used to decide the shade of grey for the navbar, background colour and footer. I also used the accessibility feature to find what coloured text to use with the background for good readability for the user. 
 * [W3C Markup Validation Service](https://validator.w3.org/) used to check the validity of my html code for all .html pages.
 * [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_input) used to check the validity of my css code in my style.css file.
+* [Balsamiq](https://balsamiq.cloud/sp0eazb/projects) used to create my wireframes.
 
-### Testing
+### **Testing**
 
 #### Testing User Stories
 Based on the User stories from above.
@@ -122,7 +148,7 @@ Based on the User stories from above.
 * When I added the media query to reduce the profile picture sizes on devices less than 768px (on the About Us page), the images reduced but the large circle remained visible. This was because the square-container class was still active. I decided to remove the container and apply the styling direct to the background image and this fixed the issue. 
 * When viewed on an iphone screen, the toggler button appeared on a line beneath the logo in the navbar. To fix this issue I reduced the padding-left of the logo and reduced the margin-right of the navbar toggler to allow room for both to be on the same line when viewed on an iphone, which is likely to be a common mobile device used by the website users.
 
-### Credits
+### **Credits**
 * The text on the website was created by myself.
 * The code for changing the navbar toggler came from this [post](https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/) on GeeksforGeeks.
 * The code for the scripts to make my navbar work came from JosV on this [post](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1592942326084700?thread_ts=1592936056.080800&cid=C7J2ZAVHB).
@@ -170,9 +196,10 @@ The photos used on the wireframes that weren't used for the website, are from th
 #### Wireframe Join Now page:
 * [Hero image](https://evofitness.ch/wp-content/uploads/2019/06/Battle-ropes-Cordes-ondulatoires-EVO-Fitness-1200x675.jpg)
 
-### Acknowledgements
+### **Acknowledgements**
 I received inspiration and guidance through my project from:
 * Code Institute mentor Seun Owonikoko.
 * Code Institute mentor Akshat Garg whose feedback throughout the project influenced my website design and content.
 * Miranda (Github user mkthewlis) whose milestone 1 project was provided to me be mentor Seun as a good example of what I should be aiming to achieve in my own project and therefore provided me with inspiration for my own project. 
 * I used the [W3schools website](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) to learn how to use media queries to implement in my project, but I didn't copy any code directly from this website.
+* I used this [post](https://reactgo.com/github-add-images-readme/#:~:text=Open%20your%20GitHub%20repository%20and%20navigate%20to%20the,use%20below%20markdown%20syntax%20to%20add%20an%20image.) on Reactgo to learn how to add the screenshot images to this README file.
