@@ -7,6 +7,8 @@ Image produced using [am.i.responsivedesign](http://ami.responsivedesign.is).
 
 The purpose of this project was to design a website for New Gym, a fictional gym based in Newport, Wales. The website was to provide details about the gym and promote the gym facilities to attract new clients and retain current gym members. The website was to fit with the New Gym brand.
 
+My deployed website can be viewed [here](https://kimlhill.github.io/Hello-world/.).
+
 ## **UX**
 
 ### **Main Aims**
