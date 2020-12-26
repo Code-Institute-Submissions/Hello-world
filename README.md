@@ -3,6 +3,7 @@
 ## **New Gym**
 
 ![New-gym-website](https://user-images.githubusercontent.com/74603013/103139222-f7891f00-46d1-11eb-9f39-724e313c0d94.jpg)
+Image produced using [am.i.responsivedesign](http://ami.responsivedesign.is).
 
 The purpose of this project was to design a website for New Gym, a fictional gym based in Newport, Wales. The website was to provide details about the gym and promote the gym facilities to attract new clients and retain current gym members. The website was to fit with the New Gym brand.
 
@@ -56,13 +57,13 @@ Desktop:
 
 ### **Features**
 The website has four separate pages: Home page (index.html), About Us (about.html), Membership (membership.html) and Join Now (join.html).
-Features consistent across the four pages:
+Features consistent across the four pages include:
 #### Navbar
 The navigation bar is consistent across all four pages. It has the logo in the top left-hand side which when clicked returns the user to the home page. On the right-hand side are four navigation tabs linking to each of the four pages. The dark grey colour (#424242) fits with the brand colours and provides a good contrast for the light-coloured text and logo. The logo is yellow to fit with the brand colours. The navigation tabs are white in colour except the active page that changes to yellow to provide visual feedback to the user to let them know which page they are on.
 	The navbar collapses to a toggle button on mobile devices for an improved user experience on smaller screen sizes.
 
 #### Hero image and call to join button
-Each page has a hero image, although the image is different for each page to reflect the content of that page. Within the hero image is a callout message (again the message is different for each page to fit with the page content) that includes a ‘Join Now’ button that links to the Join Now page or submits the user’s email and password details on the Join Now page to sign them up. The positioning on the callout message is the same on every page.
+Each page has a hero image, although the image is different for each page to reflect the content of that page. Within the hero image is a callout message (again the message is different for each page to fit with the page content) that includes a ‘Join Now’ button that links to the Join Now page or submits the user’s email and password details on the Join Now page to sign them up. The positioning of the callout message is the same on every page.
 
 #### Footer
 The footer is the same dark grey colour as the navbar to provide consistency in design. The footer is the same across all four pages. It includes social media links which are coloured yellow to fit with the brand colours. It also provides the copyright information as the footer is the normal place that a user would look for this.
@@ -138,6 +139,17 @@ Based on the User stories from above.
 #### CSS Validation
 * I used the [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_input) to check my css code. No errors were found by the validator.
 
+#### Testing once deployed
+I tested the deployed website on different browsers using Microsoft Edge, Mozilla Firefox, Apple Safari and Google Chrome. I also tested the website on mobile phones, an iPad and laptops. The images and formatting worked as intended and the internal links using the Join Now button, logo, navbar and external links to social media worked (with the exception of the differences mentioned below).
+
+A difference between the deployed version and the development version, was that on Apple Safari the phone number showed as a hyperlink to be able to actually call the number. Whilst this would be useful to the user, it showed as blue hyperlinked text which meant that it was not as easy to read as the yellow text I had intended it to be.
+![Apple Safari phone number hyperlink](https://user-images.githubusercontent.com/74603013/103149056-fbfb1980-475d-11eb-95f3-fb4d77b9d06c.png)
+
+Another difference was that on the sign up form the warning for an incorrect email address doesn't show until the user tries pressing the Join Now button. Also the suggested password can't always be seen.
+
+#### Google Chrome Lighthouse
+![Results from Lighthouse report](https://user-images.githubusercontent.com/74603013/103149172-08cc3d00-475f-11eb-945b-13db9ab482ca.png)
+
 #### Bugs Found
 * I used a Bootstrap template for the navbar but when viewed on a mobile device, the navbar did not collapse as expected. The toggle item was hidden and no menu dropped down when clicked. I initially changed my code using the Code Institute Whiskey landing page tutorial as an example. However, this did not fix the issue. I then researched on the Code Institute Slack channel and found this [post](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1592942326084700?thread_ts=1592936056.080800&cid=C7J2ZAVHB) from JosV which gave three scripts to add at the end of the body section. This fixed my error.
 * Once my navbar was working, I wanted to style the navigation tabs on the navbar to white with the text of the active page in yellow. I also wanted to change the colour of the navbar toggler to fit with the brand theme. I found the bootstrap styling options were either navbar-light or navbar-dark. I removed these styling options and used CSS to style the text colours. This caused the toggler to disappear from the user's view but it was able to be clicked still. I did some internet research into this problem and found this [post](https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/) on GeeksforGeeks that gave me the code to implement the change of toggler colour. I then edited this code to get the yellow colour I wanted. 
@@ -147,6 +159,16 @@ Based on the User stories from above.
 * The footer disappeared from the Home page. I found this to have been caused by using an incorrect positioning command on the exercise classes photo. I removed the positioning command to fix this error.
 * When I added the media query to reduce the profile picture sizes on devices less than 768px (on the About Us page), the images reduced but the large circle remained visible. This was because the square-container class was still active. I decided to remove the container and apply the styling direct to the background image and this fixed the issue. 
 * When viewed on an iphone screen, the toggler button appeared on a line beneath the logo in the navbar. To fix this issue I reduced the padding-left of the logo and reduced the margin-right of the navbar toggler to allow room for both to be on the same line when viewed on an iphone, which is likely to be a common mobile device used by the website users.
+
+### **Deployment**
+I created my project using GitHub and deployed my project using the GitHub pages hosting platform. 
+* To deploy my wesbite I completed the following steps:
+    1. Open GitHub.
+    2. Select my project repository called KimLHill/Hello-world.
+    3. Clicked the 'settings' tab in my project respository.
+    4. Scrolled down to the 'GitHub Pages' section.
+    5. I changed the source to 'Branch: master' then clicked the 'save' button.
+    6. This deployed my website which can be viewed [here](https://kimlhill.github.io/Hello-world/.). 
 
 ### **Credits**
 * The text on the website was created by myself.
@@ -195,6 +217,8 @@ The photos used on the wireframes that weren't used for the website, are from th
 
 #### Wireframe Join Now page:
 * [Hero image](https://evofitness.ch/wp-content/uploads/2019/06/Battle-ropes-Cordes-ondulatoires-EVO-Fitness-1200x675.jpg)
+
+Wireframe [tablet outline](https://st3.depositphotos.com/3638669/12595/v/950/depositphotos_125952800-stock-illustration-tablet-outline-icon-linear-vector.jpg)
 
 ### **Acknowledgements**
 I received inspiration and guidance through my project from:
